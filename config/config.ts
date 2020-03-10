@@ -91,13 +91,19 @@ export default {
           routes: [
             {
               path: '/',
-              redirect: '/device',
+              redirect: '/map',
             },
             {
-              path: '/device',
-              name: 'device',
+              path: '/map',
+              name: 'map',
               icon: 'windows',
-              component: './device',
+              component: './map',
+            },
+            {
+              path: '/upgrade',
+              name: 'upgrade',
+              icon: 'windows',
+              component: './upgrade',
             },
             {
               component: './404',
