@@ -55,7 +55,7 @@ export default {
   menu: {
     locale: true,
   },
-  title: 'GoConnect',
+  title: 'GoDevice',
   pwa: false,
   iconfontUrl: '',
 } as DefaultSettings;
